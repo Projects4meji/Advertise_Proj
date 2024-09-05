@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet" />
+    <link href="/dist/output.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Web site created using create-react-app"/>
+    <title>React App</title>
+  </head>
+    <body style="display: flex;justify-content: center;">
+        <style>
+            @media screen and (max-width:767px){
+                
+                .img2{
+                    width: 100px !important;
+                    height: 100px !important;
+                }
+
+                .test{
+                flex-direction: column;
+                padding-top: 80px;
+                }
+
+                .content{
+                background-image: url('../Guest\ Post/images/Group.png') !important;
+                background-repeat: no-repeat !important;
+                background-size: 100% 100% !important;
+                padding: 70px 20px 20px 20px !important;
+                font-size: 10px !important;
+                height: auto !important;
+                }
+
+                .grid{
+                    top: 450px;
+                    left: 60px;
+                }
+
+                .sender{
+                    top: 700px;
+                    padding-right: 40px !important;
+                }
+
+                .bull{
+                    
+                }
+
+                .bullets{
+                    padding-top: 210px !important;
+                }
+
+                .contact{
+                    bottom: 6px !important;
+                }
+
+                .foot{
+                    width: 100%;
+                    height: auto;
+                    top: 400px;
+                }
+                
+            }
+            .content{
+                background-image: url('../Guest\ Post/images/Group.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            
+        </style>
+        <div class="wrapper">
+            <div class="container ">
+                <div class="column" style="position: relative;">
+                    <div class="col ">
+                        <div>
+                            <img style="width: 100%;height: auto;" src="../Guest Post/images/Cover.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col" style="position: absolute;top: 0;right: 0;z-index: 3;">
+                        <div>
+                            <img class="img2" style="" src="../Guest Post/images/Initials.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col" style="position: relative; top: 2px;">
+                        <div style="position: absolute; width: 100%;top: -20px;">
+                            <!-- <div style="width: 100%;">
+                                <img class="groupimg" style="width: 100%;height: 50vh;" src="Group.png" alt="">
+                            </div> -->
+                            <div class="content" style="position: absolute; top:0; padding: 70px 40px; z-index: 2; font-size: 12px;">
+                                <p style="font-weight: bold;">Hello <span style="font-weight: normal;">[Name],</span> </p>
+                                <p>I hope this email finds you well. I am <span style="font-weight: bold;">[Name], [Designation] at [Company]</span> .</p>
+                                <p>We specialize in helping businesses like yours get more noticed online. So, we're reaching out to tell you about an exciting opportunity. We offer Guest Posting Services that can boost your online visibility.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="bull" style="display: flex; padding: 30px; position: relative;" class="test">
+                    <div class="bullets" style="padding-top: 220px; padding-left: 20px;">
+                        <p style="font-size: 12px;">This means we connect you with top platforms like</p>
+                        <ul style="font-size: 10px; font-weight: bold; display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(4, 1fr); grid-gap: 10px; padding-left: 0;">
+                            <li>bloomberg.com</li>
+                            <li>onlymyhealth.com</li>
+                            <li>finance.yahoo.com</li>
+                            <li>benzinga.com</li>
+                            <li>theglobeandmail.com</li>
+                            <li>markets.businessinsider.com</li>
+                            <li>msn.com</li>
+                            <li>outlookindia.com</li>
+                        </ul>
+                        <p style="font-size: 12px; width: 238px;">and many others related to your business. This helps your business get more backlinks, credibility, and recognition.</p>
+                    </div>
+
+                    <div class="grid" style="position: absolute; right: 0; bottom: 15px;">
+                        <img src="../Guest Post/images/Group 10.png" alt=""/>
+                    </div>
+
+                    <div class="sender" style="padding-right: 280px; padding-left: 20px; position: absolute; bottom: -110px; ">
+                        <p style="font-size: 12px;">If you have any questions or need more info, feel free to ask. We'd love to explain how our services can benefit your business. <br></p>
+                        <p style="font-size: 12px;">Regards<br>
+                            Sender’s Name
+                        </p>
+                    </div>
+                </div>
+
+                
+
+                <div class="foot" style="position: relative; bottom: -180px;">
+                    <div class="contact" style="display: flex; flex-direction: row; justify-content: flex-start; align-items: end; position: absolute; bottom: 9px;">
+                        <img style="width: 55px; height: 55px;" src="../Guest Post/images/logo.png" alt=""/>
+                        <div style="display: flex; flex-direction: column; justify-content: start; padding-left: 15px; color: #5f5f5f;">
+                            <p style="font-weight: bold; font-size: 10px; margin-bottom: 0;">General Enquires: <span style="font-weight: normal;">Contact@CreativeLinker.com</span></p>
+                            <p style="font-weight: bold; font-size: 10px; margin-bottom: 0;">Advertise:  <span style="font-weight: normal;">Contact@CreativeLinker.com</span></p>
+                            <p style="font-weight: bold; font-size: 10px; margin-bottom: 0;">Complaints: <span style="font-weight: normal;">Contact@CreativeLinker.com</span></p>
+                        </div>
+                    </div>
+                    <div style="padding: 0; margin: 0; display: flex; align-content: start;">
+                        <img style="width: 100%; height: auto;" src="../Guest Post/images/Cover 2.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </body>
+</html>
